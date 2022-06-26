@@ -5,13 +5,13 @@ import static Util.MenuUtil.*;
 public class Main {
     public static void main(String[] args) {
         while (true) {
+            
             int menuNumber = requiredNumber("Please select menu:" +
                     "\n 1. Register Student" +
                     "\n 2. Show All Student" +
                     "\n 3. Find Student" +
                     "\n 4. Update Student" +
                     "\n 5. Exit Systen");
-
 
             if (menuNumber == 1) {
                 registerStudent();
